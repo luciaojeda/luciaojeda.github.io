@@ -1500,12 +1500,21 @@ a:focus {
 }
 
 .footer .footer-menu p {
-    color: #ffffff;
     font-size: 22px;
     font-weight: 600;
     line-height: 20px;
     padding: 0 15px;
     border-right: 1px solid #ffffff;
+}
+
+
+.footer .footer-menu a {
+    color: #ffffff;
+}
+
+.footer .footer-menu a:hover {
+    color: #414141;
+    border: none;
 }
 
 .footer .footer-menu p:last-child {
